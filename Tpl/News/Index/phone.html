@@ -1,0 +1,91 @@
+<include file="./Public/header/header.html" />
+		<section class="product-intro wraper">
+			<section class="txt-intro">
+				
+				<div style="text-align:center;font-size:30px">{$data.title}</div>
+				<div class="parameter">
+
+					<h3>图文介绍</h3>
+					<div class="txt-pic-intro">
+						{$data.content}
+
+					</div>
+				</div>
+				
+				
+			</section>
+			
+			
+			<div class="bdsharebuttonbox">
+				<!--
+				<span class="share-txt">分享到：</span>
+				<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+				<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+				<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+				-->
+			</div>
+			<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+			
+			
+		</section>
+		
+		
+		<footer id="footer" class="wraper">
+			<a href="//13999999999">13999999999</a>
+			<p>Copyright © 北京大秦汇通商贸有限公司 </br>Powered by: 大秦汇通</p>
+		</footer>
+	</section>
+	<script src="__PUBLIC__swipe/js/zepto.min.js"></script>
+	<script src="__PUBLIC__swipe/js/swipe.js"></script>
+	<script>
+	
+		$(function(){
+		
+			//首页轮播图创建按钮
+			
+		
+			var touchSlider = {
+				touchSwipe: function(id){
+					var _this = this;
+					 var slider = Swipe(document.getElementById(id), {
+						auto: 3000,
+						continuous: true,
+						callback: function (pos) {
+							var bullets = $("#count").find("li");
+							var i = bullets.length;
+							while (i--) {
+								bullets[i].className = ' ';
+							}
+							bullets[pos].className = 'on';
+						}
+					 });
+					 this.createCount(id);
+				},
+				createCount: function(id){
+					var oCount = $("<ol />", {
+						id: "count",
+						class: "cf"
+					})
+					$('#'+id).append(oCount);
+					var oFragment = document.createDocumentFragment();
+					var oPicLength = $('#slider').find('.swipe-wrap').children().length;
+					for (var i = 0; i < oPicLength; i++) {
+						var oLi = $('<li></li>');
+						oCount.append(oLi);
+					}
+					oCount.find('li').eq(0).addClass('on');
+				}
+			 };
+			 touchSlider.touchSwipe('slider');
+		
+			$("#top-menu").tap(function(){
+				$("#top-menu-content").toggleClass("h0");
+			});
+			
+		});
+	
+		 
+
+	</script>
+</body>
+</html>

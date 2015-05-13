@@ -1,0 +1,26 @@
+
+<html>
+<head>
+</head>
+
+<body>
+<form action="__ADMIN__&a=register" method="post">
+	用户名<input name="uname"/> 
+	密码<input type="password" name="pwd"/>
+	重复密码<input type="password" />
+	邮箱<input name="email"/>
+	<input type="submit" value="提交"/>
+
+	/*
+	| uname     | varchar(32) | YES  |     | NULL    |                |
+	| pwd       | varchar(32) | YES  |     | NULL    |                |
+	| creattime | varchar(32) | YES  |     | NULL    |                |
+	| ext       | varchar(32) | YES  |     | NULL    |                |                                                                                         
+	| email     | varchar(32) | YES  |     | NULL    |                |
+	| groupid   | int(32)     | YES  |     | NULL    |                |
+	*/
+
+</form>
+
+</body>
+</html>

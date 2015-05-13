@@ -1,0 +1,17 @@
+<section id='slider' class='swipe' style='visibility: visible;'>
+	<section class='swipe-wrap'>
+
+		<?php 
+
+		$this=array('http://img1.bitautoimg.com/ycmall/mweb/img/jiaodiantu01.jpg','http://img1.bitautoimg.com/ycmall/mweb/img/jiaodiantu01.jpg','http://img1.bitautoimg.com/ycmall/mweb/img/jiaodiantu01.jpg');
+		foreach($data as $k => $v){ echo $k?>
+		<figure>
+			<div class='wrap'>
+				<a href='product-detail.html'>
+					<img alt='this is pic1' src='<?php echo $v;?>' />
+				</a>
+			</div>
+		</figure>
+		<?php } ?>
+	</section>
+</section> 

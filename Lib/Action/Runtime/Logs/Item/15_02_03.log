@@ -1,0 +1,1032 @@
+[ 2015-02-03T22:11:32+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=liquor_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `liquor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2015-02-03T22:11:33+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=liquor_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-02-03T22:13:56+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=ajax_list&jsonpcallback=jQuery11020636135238833431_1422972836181
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined index: liquorid /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` ORDER BY id desc LIMIT 20   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2015-02-03T22:14:04+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=ajax_list&jsonpcallback=jQuery110209781999725519114_1422972844375
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined index: liquorid /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` ORDER BY id desc LIMIT 20   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2015-02-03T22:14:27+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=ajax_list&jsonpcallback=jQuery11020954511288609871_1422972867159
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] Undefined index: liquorid /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` ORDER BY id desc LIMIT 20   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2015-02-03T22:14:39+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=ajax_list&jsonpcallback=jQuery110206241327823401375_1422972879968
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: liquorid /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` ORDER BY id desc LIMIT 20   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2015-02-03T22:14:41+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=ajax_list&jsonpcallback=jQuery110203010395164848304_1422972881005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined index: liquorid /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` ORDER BY id desc LIMIT 20   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2015-02-03T22:14:48+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=ajax_list&jsonpcallback=jQuery110202944788522280626_1422972888134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined index: liquorid /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` ORDER BY id desc LIMIT 20   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2015-02-03T22:28:49+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=ajax_list&jsonpcallback=jQuery1102017232900675427243_1422973729722
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Undefined index: liquorid /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` ORDER BY id desc LIMIT 20   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2015-02-03T22:28:53+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=ajax_list&jsonpcallback=jQuery1102003223532724795708_1422973733536
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined index: liquorid /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` ORDER BY id desc LIMIT 20   [ RunTime:0.0035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2015-02-03T22:45:16+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=ajax_list&jsonpcallback=jQuery110207558448359534341_1422974716562
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+NOTIC: [8] Undefined index: liquorid /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `liquor` ORDER BY id desc LIMIT 20   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-02-03T22:48:48+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=ajax_list&jsonpcallback=jQuery110202777604344319906_1422974928253
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined index: liquorid /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` ORDER BY id desc LIMIT 20   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2015-02-03T22:48:53+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=ajax_list&jsonpcallback=jQuery1102021039122155381174_1422974933889
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Undefined index: liquorid /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` ORDER BY id desc LIMIT 20   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-02-03T22:49:03+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=ajax_list&jsonpcallback=jQuery1102004907117116414461_1422974943330
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] Undefined index: liquorid /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `liquor` ORDER BY id desc LIMIT 20   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2015-02-03T22:49:15+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=liquor_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `liquor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2015-02-03T22:49:24+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=change&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `liquor` WHERE ( id='45' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2015-02-03T22:50:30+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=change&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` WHERE ( id='45' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2015-02-03T22:50:38+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0008s ]
+SQL: UPDATE `liquor` SET `type`='1',`title`='1',`alcohol`='1',`level`='1',`tempera`='1',`price`='1',`link`='',`content`='',`uname`='admin',`creattime`='1422975038',`total`='1',`country`='国家',`province`='省份、州',`county`='地级市、县' WHERE ( id='45' ) [ RunTime:0.0447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2015-02-03T22:50:39+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=change&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` WHERE ( id='45' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2015-02-03T22:50:43+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=change&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` WHERE ( id='45' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2015-02-03T22:50:52+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=change&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor` WHERE ( id='45' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2015-02-03T22:50:56+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0007s ]
+SQL: UPDATE `liquor` SET `type`='1',`title`='1',`alcohol`='1',`level`='1',`tempera`='1',`price`='1',`link`='',`content`='',`uname`='admin',`creattime`='1422975056',`total`='1',`country`='国家',`province`='省份、州',`county`='地级市、县' WHERE ( id='45' ) [ RunTime:0.0420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2015-02-03T22:50:57+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=change&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `liquor` WHERE ( id='45' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002864s ]
+
+[ 2015-02-03T22:51:00+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=liquor_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `liquor`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2015-02-03T22:53:27+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+
+[ 2015-02-03T22:54:03+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: _FILE /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 131 行.
+
+[ 2015-02-03T22:54:24+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+
+[ 2015-02-03T22:54:33+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+
+[ 2015-02-03T22:54:41+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+
+[ 2015-02-03T22:55:39+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+
+[ 2015-02-03T22:55:45+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+
+[ 2015-02-03T22:56:10+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined index: name /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 131 行.
+
+[ 2015-02-03T22:56:15+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined index: name /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 131 行.
+
+[ 2015-02-03T22:56:28+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002988s ]
+
+[ 2015-02-03T22:56:32+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+
+[ 2015-02-03T22:56:58+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: file_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined variable: web_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 142 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+NOTIC: [2] move_uploaded_file(/4b341c37e5160713758a34ca8a39c807_1422975418_9354_0.jpg): failed to open stream: Permission denied /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 145 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/opt/lampp/temp/phpJ6tDyu' to '/4b341c37e5160713758a34ca8a39c807_1422975418_9354_0.jpg' /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 145 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 147 行.
+
+[ 2015-02-03T22:57:20+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: file_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined variable: web_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 143 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 145 行.
+NOTIC: [2] move_uploaded_file(/4b341c37e5160713758a34ca8a39c807_1422975440_9296_0.jpg): failed to open stream: Permission denied /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 146 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/opt/lampp/temp/phpoI1QAD' to '/4b341c37e5160713758a34ca8a39c807_1422975440_9296_0.jpg' /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 146 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 148 行.
+
+[ 2015-02-03T22:58:03+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+
+[ 2015-02-03T22:58:10+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: file_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined variable: web_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 139 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 141 行.
+NOTIC: [2] move_uploaded_file(/4b341c37e5160713758a34ca8a39c807_1422975490_6429_0.jpg): failed to open stream: Permission denied /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 142 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/opt/lampp/temp/phpsC3Xcc' to '/4b341c37e5160713758a34ca8a39c807_1422975490_6429_0.jpg' /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 142 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 145 行.
+
+[ 2015-02-03T22:58:46+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [8] Undefined variable: date /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined variable: file_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 139 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 142 行.
+NOTIC: [2] move_uploaded_file(/4b341c37e5160713758a34ca8a39c807_1422975526_441_0.jpg): failed to open stream: Permission denied /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 143 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/opt/lampp/temp/phpXePkq1' to '/4b341c37e5160713758a34ca8a39c807_1422975526_441_0.jpg' /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 143 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 145 行.
+
+[ 2015-02-03T22:59:16+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: date /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined variable: file_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 139 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 143 行.
+NOTIC: [2] move_uploaded_file(/4b341c37e5160713758a34ca8a39c807_1422975556_3740_0.jpg): failed to open stream: Permission denied /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/opt/lampp/temp/phpMUcMgb' to '/4b341c37e5160713758a34ca8a39c807_1422975556_3740_0.jpg' /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 146 行.
+
+[ 2015-02-03T23:00:31+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Undefined variable: date /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined variable: file_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 139 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 142 行.
+NOTIC: [2] move_uploaded_file(/4b341c37e5160713758a34ca8a39c807_1422975631_1298_0.jpg): failed to open stream: Permission denied /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 143 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/opt/lampp/temp/phphbVD4q' to '/4b341c37e5160713758a34ca8a39c807_1422975631_1298_0.jpg' /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 143 行.
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined variable: file_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 139 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 142 行.
+NOTIC: [2] move_uploaded_file(/f2bd6894e4472d5806dfa85a858bcbe5_1422975631_1433_1.jpg): failed to open stream: Permission denied /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 143 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/opt/lampp/temp/phpFRslLk' to '/f2bd6894e4472d5806dfa85a858bcbe5_1422975631_1433_1.jpg' /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 143 行.
+
+[ 2015-02-03T23:00:45+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: date /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined variable: file_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 140 行.
+NOTIC: [2] move_uploaded_file(/4b341c37e5160713758a34ca8a39c807_1422975645_4461_0.jpg): failed to open stream: Permission denied /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/opt/lampp/temp/phpofnWEo' to '/4b341c37e5160713758a34ca8a39c807_1422975645_4461_0.jpg' /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined variable: file_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 140 行.
+NOTIC: [2] move_uploaded_file(/f2bd6894e4472d5806dfa85a858bcbe5_1422975645_2217_1.jpg): failed to open stream: Permission denied /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/opt/lampp/temp/phpW203l0' to '/f2bd6894e4472d5806dfa85a858bcbe5_1422975645_2217_1.jpg' /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+
+[ 2015-02-03T23:01:26+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Undefined variable: date /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined variable: file_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 140 行.
+NOTIC: [2] move_uploaded_file(/4b341c37e5160713758a34ca8a39c807_1422975686_7295_0.jpg): failed to open stream: Permission denied /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/opt/lampp/temp/phpG6K3TP' to '/4b341c37e5160713758a34ca8a39c807_1422975686_7295_0.jpg' /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined variable: file_url /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 140 行.
+NOTIC: [2] move_uploaded_file(/f2bd6894e4472d5806dfa85a858bcbe5_1422975686_1307_1.jpg): failed to open stream: Permission denied /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/opt/lampp/temp/phpCPf5mv' to '/f2bd6894e4472d5806dfa85a858bcbe5_1422975686_1307_1.jpg' /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+
+[ 2015-02-03T23:02:50+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+NOTIC: [8] Undefined variable: date /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8] Undefined variable: document_root /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: date /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 133 行.
+NOTIC: [2] mkdir(): No such file or directory /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 135 行.
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 142 行.
+NOTIC: [2] move_uploaded_file(/Public/Upload//4b341c37e5160713758a34ca8a39c807_1422975770_9465_0.jpg): failed to open stream: No such file or directory /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 148 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/opt/lampp/temp/phpebe5sZ' to '/Public/Upload//4b341c37e5160713758a34ca8a39c807_1422975770_9465_0.jpg' /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 148 行.
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 142 行.
+NOTIC: [2] move_uploaded_file(/Public/Upload//36acdee1d8ef481f2d0793d245a6f390_1422975770_2740_1.jpg): failed to open stream: No such file or directory /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 148 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/opt/lampp/temp/phpWRVwUV' to '/Public/Upload//36acdee1d8ef481f2d0793d245a6f390_1422975770_2740_1.jpg' /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 148 行.
+
+[ 2015-02-03T23:04:00+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Undefined variable: date /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8] Undefined variable: document_root /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: date /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 133 行.
+
+[ 2015-02-03T23:04:49+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined variable: date /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8] Undefined variable: document_root /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: date /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 133 行.
+
+[ 2015-02-03T23:05:08+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+
+[ 2015-02-03T23:05:22+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+
+[ 2015-02-03T23:05:52+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=doChange&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Item/Controller/IndexController.class.php 第 144 行.
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0007s ]
+SQL: UPDATE `liquor` SET `type`='1',`title`='1',`alcohol`='1',`level`='1',`tempera`='1',`price`='1',`link`='',`content`='',`uname`='admin',`creattime`='1422975952',`total`='1',`country`='国家',`province`='省份、州',`county`='地级市、县',`url`='http://dq/Public/Upload/20150203/4b341c37e5160713758a34ca8a39c807_1422975952_9569_0.jpg,http://dq/Public/Upload/20150203/c716e23ed7d620fc1ecce03b00102d76_1422975952_5258_1.jpg' WHERE ( id='45' ) [ RunTime:0.0404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2015-02-03T23:05:53+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=change&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003746s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `liquor` WHERE ( id='45' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-02-03T23:06:29+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=uploadLiquor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-02-03T23:09:29+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=uploadLiquor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004788s ]
+
+[ 2015-02-03T23:09:41+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=uploadLiquor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2015-02-03T23:10:07+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=uploadLiquor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2015-02-03T23:13:02+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=uploadLiquor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2015-02-03T23:14:11+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=uploadLiquor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2015-02-03T23:14:50+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=uploadLiquor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2015-02-03T23:15:44+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=homePage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+ERR: 非法操作:homePage
+
+[ 2015-02-03T23:18:57+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=homePage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+ERR: 非法操作:homePage
+
+[ 2015-02-03T23:18:58+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=homePage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+ERR: 非法操作:homePage
+
+[ 2015-02-03T23:19:05+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=liquor_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `liquor` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `liquor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2015-02-03T23:37:15+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=uploadLiquor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-02-03T23:37:43+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=uploadLiquor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2015-02-03T23:38:14+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=uploadLiquor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2015-02-03T23:39:27+08:00 ] 127.0.0.1 /index.php?m=Item&c=Index&a=uploadLiquor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+

@@ -1,0 +1,563 @@
+[ 2015-02-08T10:21:30+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=create&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `item` WHERE ( id='5' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: table_content /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined variable: table_content /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 70 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+SQL: UPDATE `item` SET `link`='/home/mtf/Application/dq/html/20150207/8fa14cdd754f91cc6554c9e71929cce7_5_21.html',`status`='2',`web_url`='http://dq/html/20150207/8fa14cdd754f91cc6554c9e71929cce7_5_21.html' WHERE ( id='5' ) [ RunTime:0.0646s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.067266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002080s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.065167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.067129s ]
+
+[ 2015-02-08T10:22:06+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=create&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `item` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: table_content /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined variable: table_content /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 70 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+SQL: UPDATE `item` SET `link`='/home/mtf/Application/dq/html/20150207/8277e0910d750195b448797616e091ad_6_72.html',`status`='2',`web_url`='http://dq/html/20150207/8277e0910d750195b448797616e091ad_6_72.html' WHERE ( id='6' ) [ RunTime:0.0510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.052797s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001481s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.051464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.052863s ]
+
+[ 2015-02-08T10:22:22+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=create&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `item` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: table_content /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined variable: table_content /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 70 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+SQL: UPDATE `item` SET `link`='/home/mtf/Application/dq/html/20150207/8277e0910d750195b448797616e091ad_6_72.html',`status`='2',`web_url`='http://dq/html/20150207/8277e0910d750195b448797616e091ad_6_72.html' WHERE ( id='6' ) [ RunTime:0.0900s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.091846s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001207s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.090506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.091597s ]
+
+[ 2015-02-08T10:22:35+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=create&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: table_content /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined variable: table_content /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 70 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+SQL: UPDATE `item` SET `link`='/home/mtf/Application/dq/html/20150207/8277e0910d750195b448797616e091ad_6_72.html',`status`='2',`web_url`='http://dq/html/20150207/8277e0910d750195b448797616e091ad_6_72.html' WHERE ( id='6' ) [ RunTime:0.0600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.063070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002065s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.060779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.062703s ]
+
+[ 2015-02-08T10:22:41+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=create&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='7' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: table_content /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 70 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+SQL: UPDATE `item` SET `link`='/home/mtf/Application/dq/html/20150208/979d472a84804b9f647bc185a877a8b5_7_1.html',`status`='2',`web_url`='http://dq/html/20150208/979d472a84804b9f647bc185a877a8b5_7_1.html' WHERE ( id='7' ) [ RunTime:0.0575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.059635s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001212s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.058094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.059146s ]
+
+[ 2015-02-08T10:22:53+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=create&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-02-08T10:23:28+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=create&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: table_content /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: table_content /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+SQL: UPDATE `item` SET `link`='/home/mtf/Application/dq/html/20150207/8277e0910d750195b448797616e091ad_6_72.html',`status`='2',`web_url`='http://dq/html/20150207/8277e0910d750195b448797616e091ad_6_72.html' WHERE ( id='6' ) [ RunTime:0.0566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.058493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001211s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.057109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.058196s ]
+
+[ 2015-02-08T11:05:39+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Uninitialized string offset: 0 /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2015-02-08T11:06:23+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=create&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Uninitialized string offset: 0 /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+SQL: UPDATE `item` SET `link`='/home/mtf/Application/dq/html/20150208/db06c78d1e24cf708a14ce81c9b617ec_9_30.html',`status`='2',`web_url`='http://dq/html/20150208/db06c78d1e24cf708a14ce81c9b617ec_9_30.html' WHERE ( id='9' ) [ RunTime:0.0769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.079467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002149s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.077446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.079534s ]
+
+[ 2015-02-08T11:06:32+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Uninitialized string offset: 0 /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2015-02-08T11:06:33+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Uninitialized string offset: 0 /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2015-02-08T11:06:40+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Uninitialized string offset: 0 /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2015-02-08T20:27:05+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Uninitialized string offset: 0 /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2015-02-08T20:55:55+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Uninitialized string offset: 0 /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2015-02-08T20:56:48+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-02-08T20:57:00+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-02-08T20:57:19+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Uninitialized string offset: 0 /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 49 行.
+
+[ 2015-02-08T20:57:32+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-02-08T20:57:48+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: item_table_content /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2015-02-08T20:57:54+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Uninitialized string offset: 0 /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2015-02-08T20:58:00+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Uninitialized string offset: 0 /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2015-02-08T21:01:40+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=phone&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `item` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8192] Function split() is deprecated /home/mtf/Application/dq/Application/Template/Controller/IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `table_item` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `table_item` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+

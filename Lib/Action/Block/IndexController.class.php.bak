@@ -1,0 +1,69 @@
+<?php
+namespace Block\Controller;
+use Think\Controller;
+class IndexController extends Controller {
+	public function __construct(){
+		parent::__construct();
+	}
+
+
+
+	public function editBlock(){
+		$id=I("get.id");
+		$this->html_code="
+		<section id='slider' class='swipe' style='visibility: visible;'>
+			<section class='swipe-wrap'>
+
+				<?php
+foreach(\$data as \$k => \$v){
+?>
+				<figure>
+					<div class='wrap'>
+						<a href='product-detail.html'>
+							<img alt='this is pic1' src='\$v' />
+						</a>
+					</div>
+				</figure>
+<?php } ?>
+			</section>
+		</section> ";
+
+$this->display();
+		
+	}
+	public function doBlock(){
+		$data=I("post.data");
+		$type=I("post.type");
+		$id=I("post.id");
+
+	
+
+
+
+	}
+	public function genBlock(){
+
+		$this->data=array('http://img1.bitautoimg.com/ycmall/mweb/img/jiaodiantu01.jpg','http://img1.bitautoimg.com/ycmall/mweb/img/jiaodiantu01.jpg','http://img1.bitautoimg.com/ycmall/mweb/img/jiaodiantu01.jpg');
+		$this->html_code="
+		<section id='slider' class='swipe' style='visibility: visible;'>
+			<section class='swipe-wrap'>
+
+				<?php foreach(\$data as \$k => \$v){ ?>
+				<figure>
+					<div class='wrap'>
+						<a href='product-detail.html'>
+						<img alt='this is pic1' src='<?php echo \$v;?>' />
+						</a>
+					</div>
+				</figure>
+				<?php } ?>
+			</section>
+		</section> ";
+		$data=$this->data;
+		$s=file_put_contents("/home/mtf/Application/dq/Public/1.html",$this->html_code);
+		ob_start();
+		include "/home/mtf/Application/dq/Public/1.html";
+		$content=ob_get_contents();
+	}
+
+}

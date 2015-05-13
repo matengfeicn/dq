@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<table>
+	<tr>
+		<td>ID</td>
+		<td>酒名</td>
+		<td>类型</td>
+		<td>创建时间</td>
+		<td>价格</td>
+		<td>剩余</td>
+		<td colspan="4"></td>
+	</tr>
+	<foreach name="data" item="vo" key="key">
+	<tr>
+		<td>{$vo.id}</td>
+		<td>{$vo.title}</td>
+		<td>{$vo.type}</td>
+		<td>{$vo.creattime}</td>
+		<td>{$vo.price}</td>
+		<td>{$vo.total}</td>
+		<td>pc预览</td>
+		<td>手机预览</td>
+		<td>生成页面</td>
+		<td>生成页面</td>
+	
+	
+	</tr>
+
+
+	</foreach>
+
+</table>
+</body>
+</html>

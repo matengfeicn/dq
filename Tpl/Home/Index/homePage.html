@@ -1,0 +1,142 @@
+<include file="./Public/header/header.html"/>
+		<!-- 轮播start-->
+			{:getBlock('homePage_1')}
+		<!-- 轮播end-->
+
+		
+		<section class="module-list wraper">
+			<section class="hd cf">
+				<h2 class="fl">礼品定制</h2>
+				<a href="__ITEM__&a=getMore&channelid=51" class="fr">更多案例</a>
+			</section>
+			<section class="bd">
+					{:getBlock('homePage_2')}
+				<ul class="cf data-list1">
+					<li>
+						<a href="gift-detail.html">
+							<strong>礼品名称</strong>
+							<img src="__PUBLIC__swipe/images/tem/gift-tem.jpg"  alt="" />
+						</a>
+					</li>
+					<li>
+					<a href="gift-detail.html">
+							<strong>礼品名称</strong>
+							<img src="__PUBLIC__swipe/images/tem/gift-tem.jpg"  alt="" />
+						</a>
+					</li>
+				</ul>
+				<ul class="cf data-list2">
+					<li>
+						<a href="gift-detail.html">
+							<strong>礼品名称</strong>
+							<img src="__PUBLIC__swipe/images/tem/gift-tem.jpg"  alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="gift-detail.html">
+							<strong>礼品名称</strong>
+							<img src="__PUBLIC__swipe/images/tem/gift-tem.jpg"  alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="gift-detail.html">
+							<strong>礼品名称</strong>
+							<img src="__PUBLIC__swipe/images/tem/gift-tem.jpg"  alt="" />
+						</a>
+					</li>
+				</ul>
+			</section>
+		</section>
+		
+		<section class="module-list wraper">
+			<section class="hd cf">
+				<h2 class="fl">酒品人生</h2>
+				<a href="__ITEM__&a=getMore&channelid=35" class="fr">更多案例</a>
+				<a href="more.html" class="fr">更多案例</a>
+			</section>
+			<section class="bd">
+					{:getBlock('homePage_3')}
+				<ul class="cf data-list1">
+					<li>
+						<a href="product-detail.html">
+							<strong>40度法国轩尼诗</strong>
+							<img src="__PUBLIC__swipe/images/tem/tem1-1.jpg"  alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="product-detail.html">
+							<strong>甘肃皇台95至尊</strong>
+							<img src="__PUBLIC__swipe/images/tem/tem1-2.jpg"  alt="" />
+						</a>
+					</li>
+				</ul>
+				<ul class="cf data-list2">
+					<li>
+						<a href="product-detail.html">
+							<strong>拉菲红酒原装进口</strong>
+							<img src="__PUBLIC__swipe/images/tem/tem1-3.jpg"  alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="product-detail.html">
+							<strong>拉菲红酒原装进口</strong>
+							<img src="__PUBLIC__swipe/images/tem/tem1-3.jpg"  alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="product-detail.html">
+							<strong>拉菲红酒原装进口</strong>
+							<img src="__PUBLIC__swipe/images/tem/tem1-3.jpg"  alt="" />
+						</a>
+					</li>
+				</ul>
+			</section>
+		</section>
+		
+		<footer id="footer" class="wraper">
+			<a href="//13999999999">13999999999</a>
+			<p>Copyright © 北京大秦汇通商贸有限公司 </br>Powered by: 大秦汇通</p>
+		</footer>
+	</section>
+	
+	
+	<script src="__PUBLIC__swipe/js/zepto.min.js"></script>
+	<script src="__PUBLIC__swipe/js/swipe.js"></script>
+	<script>
+	
+		$(function(){
+			
+			var touchSlider = {
+				touchSwipe: function(id){
+					 var slider = Swipe(document.getElementById(id), {
+						auto: 3000,
+						continuous: true
+					 });
+					 this.createTx(id);
+				},
+				createTx: function(id){
+					var picFigure = $('#'+id).find('figure');
+					var imgs = $('#'+id).find('img');
+					picFigure.each(function(){
+						$('<h3 />', {
+							text: imgs.eq($(this).index()).attr('alt'),
+							class: 'slider-des'
+						}).appendTo($(this));
+					});
+				}
+			 };
+			 touchSlider.touchSwipe('slider');
+
+			
+			$("#top-menu").tap(function(){
+				$("#top-menu-content").toggleClass("h0");
+				//$("#top-menu-content").height("300px");
+			});
+			
+		});
+	
+		 
+
+	</script>
+</body>
+</html>

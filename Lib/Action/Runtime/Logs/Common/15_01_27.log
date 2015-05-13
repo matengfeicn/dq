@@ -1,0 +1,6 @@
+[ 2015-01-27T23:46:52+08:00 ] 127.0.0.1 /index.php?m=Template&c=Index&a=pc&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+ERR: 无法加载模块:Template
+

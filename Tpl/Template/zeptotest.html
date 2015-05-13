@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>测试</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" href="style/base.css" type="text/css"/>
+    <link rel="stylesheet" href="style/common.css" type="text/css"/>
+	<!-- <script src="http://192.168.88.114:8081/target/target-script-min.js#anonymous"></script> -->
+	<style>
+		.mod{
+			height: 100%;
+			width: 100%:
+		}
+		.mod1{
+			background: red;
+		}
+		.mod2{
+			background: green;
+		}
+		.mod2{
+			background: blue;
+		}
+		.mod2{
+			background: yellow;
+		}
+	</style>
+</head>
+<body class="bg-gray">
+	
+	
+	<div id="container">
+		<div class="mod mod1"></div>
+		<div class="mod mod2"></div>
+		<div class="mod mod3"></div>
+		<div class="mod mod4"></div>
+	</div>
+	
+	<div id="div1"></div>
+	<div></div>
+	<div></div>
+	
+	<script src="libs/zepto.min2.js"></script>
+	<script>
+	
+		$(function(){
+		
+			$('.mod').height($(window).height());
+			
+			$('#container').swipeUp(function(){
+				$(this).animate({
+					translate3d: '0,'+$(window).height()+'px,0'
+					}, 500,
+					'ease')
+			});
+			
+			//console.log($(window).height());
+			
+			//获得页面中所有DIV
+			//var $div = $('div');
+			//console.log($div.length);
+			
+			//在一个元素最后面的位置添加元素
+			$("<p class='tem'></p>").appendTo($('.bg-gray'));
+			
+			
+			$('<p />', {
+				text: "this is test",
+				id : "test",
+				css: {
+					color: 'red',
+					padding: '10px'
+				}
+			}).appendTo($('.bg-gray'));
+			
+			//改成驼峰字符串儿
+			//console.log($.camelCase('hello-zepto'));
+			
+			
+			//zepto报错  undefined is not a function
+			//console.log($.contains($('.bg-gray'), $('#div1')));
+			
+			var arr = [1,2,3];
+			//$.each(function(index, item){
+			//	console.log('index:' + index + ',' + 'item:' + item);
+			//});
+			
+			var target = {one: '1'},
+				source = {two: '2'};
+				
+			$.extend(true, target, source);
+			console.log(source);
+			
+			
+			//$.grep 返回从指定位置开始的新素组
+			var arr1 = [1,2,3,4,5];
+			var newArr = $.grep(arr1, function(item){
+				return item>1 && item <= 4;
+			})
+			console.log(newArr);
+			
+			//$.isArray 是否为数组
+			//console.log($.isArray([{},{},{}]));
+			
+			//$.isFunction ??
+			var temfunction = function(){};
+			$.isFunction(temfunction);
+			
+			//$.isPlainObject 返回是否为纯粹对象，{}, new Object;
+			console.log($.isPlainObject({}));
+			
+			//$.isWindow  返回是否为一个window对象
+			
+			console.log($.isWindow(window))
+			
+			
+			//$.parseJSON 解析字符串JSON ??
+			var temJson = "{'name': 'yangtao', 'age': '24'}";
+			//console.log($.parseJson(temJson));
+			
+			//$.trim  去除字符串首位空格
+			var temstri = ' 234a  ';
+			console.log($.trim(temstri));
+			
+			//$div.addClass(function(index){
+			//	return 'tem' + index;
+			//});
+			
+			
+			$('#div1').after('<p>this is after</p>');
+			
+			
+		});
+	
+		 
+
+	</script>
+</body>
+</html>
